@@ -1,0 +1,143 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Colors*/
+body {
+  min-height: 100vh;
+  background: linear-gradient(90deg, rgba(222, 30, 64, 0.2) 0%, rgba(34, 78, 75, 0.2) 100%);
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 600;
+  font-size: 0.938rem;
+  line-height: 20px;
+}
+
+.box-meteo {
+  margin-top: 10%;
+  border-radius: 25px;
+  background: #fff;
+}
+
+.col-data {
+  background: #E7D6C6;
+}
+.col-data h3 {
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 700;
+}
+@media only screen and (min-width: 1024px) {
+  .col-data {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+}
+.col-data .col-city h2 {
+  font-size: 3rem;
+  line-height: 4.063rem;
+  font-weight: 700;
+}
+.col-data .col-city h1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.col-data form {
+  text-align: right;
+}
+.col-data input.pesquisa {
+  text-align: right;
+  border: none;
+  padding: 0.8rem 1.4rem;
+  border-radius: 12.5px;
+}
+.col-data .box {
+  border-radius: 25px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: 14px 36px;
+  text-align: right;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+.col-data .box h4 {
+  font-size: 0.938rem;
+  line-height: 1.25rem;
+}
+.col-data .box p.numero {
+  font-size: 1.5rem;
+  line-height: 2.063rem;
+}
+.col-data .box.bigbox {
+  min-height: 170px;
+}
+.col-data .box.smallbox {
+  min-height: 130px;
+}
+.col-data .sistemas {
+  text-align: right;
+}
+.col-data .sistemas li {
+  display: inline-block;
+}
+.col-data .sistemas li a {
+  color: #000;
+  text-decoration: none;
+}
+.col-data .sistemas li a:hover {
+  color: green;
+}
+.col-data .sistemas li a.ativo {
+  color: green;
+}/*# sourceMappingURL=style.css.map */

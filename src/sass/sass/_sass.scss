@@ -1,0 +1,106 @@
+body {
+  min-height: 100vh;
+  background: linear-gradient(90deg, rgba(222, 30, 64, 0.2) 0%, rgba(34, 78, 75, 0.2) 100%);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+p {
+  font-weight: 600;
+  font-size: 0.938rem;
+  line-height: 20px;
+
+}
+
+.box-meteo {
+  margin-top: 10%;
+  border-radius: $radius-value;
+  background: $primary-color;
+}
+
+.col-data {
+  background:  $col-direita-background;
+  h3 {
+    font-size: 24px;
+    line-height: 33px;
+    @include font-weight-titulos;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    border-top-right-radius: $radius-value;
+    border-bottom-right-radius: $radius-value;
+  }
+  .col-city {
+    h2 {
+      font-size: 3rem;
+      line-height: 4.063rem;
+      @include font-weight-titulos;
+      
+    }
+  
+    h1 {
+      font-size: 1.25rem;
+      @include font-weight-titulos;
+    }
+  }
+
+  form {
+    text-align: right;
+  }
+
+  input.pesquisa {
+    text-align: right;
+    border: none;
+    padding: 0.8rem 1.4rem;
+    border-radius:$radius-value / 2;
+  }
+
+  .box {
+    border-radius:$radius-value;
+    background-repeat: no-repeat;
+    background-color: $primary-color;
+    background-position: 14px 36px;
+    text-align: right;
+    font-weight: 600;
+    margin: 1rem 0;
+
+    h4 {
+      font-size: 0.938rem;  
+      line-height: 1.25rem;
+    }
+
+    p.numero {
+      font-size: 1.5rem;
+      line-height: 2.063rem;
+    }
+
+    &.bigbox {
+      min-height: 170px;
+    }
+    &.smallbox {
+      min-height: 130px;
+    }
+    
+  }
+
+  .sistemas {
+    text-align: right;
+    li {
+      display: inline-block;
+
+      a {
+        color: $secundary-color;
+        text-decoration: none;
+
+        &:hover {
+          color: green;
+        }
+
+        &.ativo {
+          color: green;
+        }
+      }
+    }
+  }
+}

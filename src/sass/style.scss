@@ -1,0 +1,6 @@
+// Colocamos todas as nossas variaveis e mixins dentro de uma pasta chamada "abstracts" - vocês podem dar o nome que quiserem, é só uma preferencia pessoal nos nomes.
+
+@import 'abstracts/reset';
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'sass/_sass.scss';
